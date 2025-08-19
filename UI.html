@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="UI.css">
     <title>Login Form</title>
 </head>
 <body>
     <div class="container">
+        <div class="main">
         <div id="one">
             <h1>Welcome</h1>
         </div>
         <div id="two">
             <form action="/login" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+                
+                <input type="text" id="email" required placeholder="Enter your email" name="username">
                 <br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+                
+                <input type="password" id="password" required placeholder="Enter your password" name="password">
                 <br>
                 <button type="submit">Login</button>
             </form>
@@ -29,7 +31,11 @@
         </div>  
         <div class="five">
             <p>By logging in, you agree to our <a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a>.</p>
-        </div>  
+        </div> 
+        <div class="six">
+            <p>Need help? <a href="/help">Visit our Help Center</a></p> 
+        </div>
+        </div>
     </div>    
 </body>
 </html>
