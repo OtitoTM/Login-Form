@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background-color: #d4d6f0ad;
+    background-color: #c7c7f7ad;
     color: #333;
 }
 .container{
@@ -13,7 +13,7 @@ body{
     width: 30%;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f3eeee75;
+    background-color: #ffffff86;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     display: flex;
@@ -59,9 +59,69 @@ body{
 #two input[type="text"],
 #two input[type="password"]{
     width: 100%;
-    padding: 14px;
-    margin-bottom: 16px;
+    padding: 12px;
+    margin-bottom: 14px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 14px;
+}
+#three{
+    display: flex;
+    
+    align-items: center;
+    margin-top: 20px;
+}
+#three a{
+    color: #3b8cdd;
+    text-decoration: none;
     font-size: 16px;
+}
+#three a:hover{
+    text-decoration: underline;
+}
+#three p{
+    margin-right: 10px;
+    font-size: 16px;
+}
+#four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#four a{
+    color: #3b8cdd;
+    text-decoration: none;
+    font-size: 16px;
+}
+#four a:hover{
+    text-decoration: underline;
+}
+#four p{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.five a{
+    color: #3b8cdd;
+    text-decoration: none;
+    font-size: 16px;
+}
+.five a:hover{
+    text-decoration: underline;
+}
+.five p{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
